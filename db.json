@@ -1,31 +1,37 @@
- {
-  "posts": [
+{
+  "assets": [
     {
       "id": 1,
-      "title": "Post 1"
+      "name": "Asset 1"
     },
     {
       "id": 2,
-      "title": "Post 2"
+      "name": "Asset 2"
     },
     {
       "id": 3,
-      "title": "Post 3"
+      "name": "Asset 3"
     }
   ],
-  "comments": [
+  "reports": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "assetId": 1,
+      "latitude": "33.95400",
+      "longitude": "-118.37332",
+      "fixTimeStamp": "2022-10-14 17:51:54",
+      "statusTimeStamp": "2022-10-14 17:51:54"
     },
     {
       "id": 2,
-      "body": "some comment",
-      "postId": 1
+      "assetId": 2,
+      "latitude": "33.95400",
+      "longitude": "-118.37332",
+      "fixTimeStamp": "2022-10-14 17:51:54",
+      "statusTimeStamp": "2022-10-14 17:51:54"
     }
   ],
   "profile": {
-    "name": "typicode"
+    "name": "sethlilly"
   }
 }
